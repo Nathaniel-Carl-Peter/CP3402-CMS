@@ -1,0 +1,95 @@
+body, 
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Robert', sans-serif;
+}
+
+html, 
+body {
+  min-width: 400px;
+}
+
+body {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+a{
+  text-decoration:none;
+  color: rgb(255, 255, 255);  
+}
+
+
+/*Header section*/
+.top-section{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+  background-color: black;
+  font-weight: bold;
+}
+
+
+.navbar-links,
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+
+.nav-link:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+  text-align: center;
+}
+
+
+/*End Header section*/
+
+/*Content Section for home page*/
+.main-content{
+  /*BG image*/
+  background-image: url('../images/hero-image-new.jpg');
+  background-repeat:no-repeat ;
+  background-position: center;
+  background-attachment:scroll ;
+  background-size: cover;
+  min-height: 100%;
+
+  /* Properties for content */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.highlight{
+  text-align: center !important;
+  font-size: 10rem;
+  color: #6a6565;
+}
+
+/*About page*/
+
+.about-content{
+  justify-content: center;
+  align-items: center;
+}
+
+.w3-padding-64 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+/*Footer Section*/
+
+.bottom-section{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 2rem;
+  font-size: small;
+}
