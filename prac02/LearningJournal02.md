@@ -33,3 +33,5 @@ This also go back to the benefits of cloud computing, a field of decent demand i
     -Security hardening(setting up Firewalls)
 
 Can't really think of much to add but cloud computing seems to be one of the most highly demanded usage of technology of this day and age.
+
+That's all for now.
